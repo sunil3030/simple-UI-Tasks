@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+   
+.wholediv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:600px;
+    background-color:bisque;
+}
+
+.container{
+    width:50%;
+    padding: 0px;
+    background-color: white;
+    
+}
+.topbox{
+    width: 100%;
+    background-color: aqu;
+    display: flex;
+    padding: 20px;
+    border-bottom: 1px solid black;
+    
+}
+.topleft{
+    width:97%;
+    justify-content: start;
+    background-color: blu
+    
+
+}
+.topright{
+    float: right;
+    
+}
+.bottombox{
+    background-color: aqu;
+    margin-top: px;
+    display: flex;
+}
+.imgbox{
+    padding: 20px;
+    border-right: 1px solid black;
+}
+.contents{
+    padding: 30px;
+}
+.amount{
+    font-size:35px;
+    
+}
+.one{
+    font-size: 25px;
+}
+.contents .btns{
+      border:1px solid black;
+      height: 35px;width:150px;
+      background-color: white;
+      margin-right: 5px;
+
+}
+.wish{
+    
+}

@@ -1,0 +1,292 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    min-height: 650px;
+    background-color: bisqu;
+
+}
+.topbtns button{
+    padding: 20px 30px;
+    border: none;
+    background-color: unset;
+    font-size: 20px;
+    
+}
+.topbtns select{
+    border: none;
+    font-size: 20px;
+    background-color: unset;
+}
+.topbtns{
+    display: flex;
+    justify-content: end;
+    padding: 20px 40px;
+    
+    
+}
+.topbtns .bluebtn{
+    background-color: skyblue;
+    color: white;
+    border-radius: 10px;
+    padding: 0px 30px;
+    font-weight: bold;
+}
+.imgbox{
+    height: 550px;
+    width: 100%;
+    background-image: url("./download\ \(1\).jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    text-align: center;
+}
+.imgbox h1{
+    font-size: 40px;
+    padding-bottom: 20px;
+    padding-top: 190px;
+}
+.imgbox p{
+    font-size: 30px;
+    padding-bottom: 30px;
+
+}
+.imgbox .buybtn{
+    height: 50px;
+    width: 160px;
+    background-color:white;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+}
+.imgbox .travelbtn{
+    height: 50px;
+    width: 160px;
+    background-color:unset;
+    margin-left: 30px;
+    font-size: 18px;
+    border: none;
+    border: 2px solid white;
+    border-radius: 5px
+}
+.contentcontainer{
+    padding: 30px 50px;
+}
+.journal{
+    width:50%
+}
+.journal h1{
+    padding-bottom: 10px;
+    font-size: 30px;
+}
+p{
+    line-height: 25px;
+}
+.imgdiv{
+    /* width:100%; */
+    margin: 30px 24px;
+    background-color: aqu;
+    display: grid;
+    grid-template-columns:repeat(auto-fit, minmax(400px,1fr));
+    justify-content: center;
+    box-shadow: 1px 1px 5px 1px grey;
+}
+
+.imgdiv button,.cards button{
+    color: blue;
+    font-size: 20px;
+    border: none;
+    background-color: unset;
+    padding-top: 30px;
+}
+
+.lorem{
+   
+    background-color: re;
+    padding: 20px;
+    min-height: 250px;
+   
+}
+.imgs{
+    background-color: yello;
+    padding: unset;
+    
+    
+   
+}
+img{
+    height: 250px; 
+    width: 400px;
+    object-fit: cover;   
+}
+.para{
+    width:50%;
+    background-color: blu;
+    margin: auto;
+    padding: 30px 0;
+   
+}
+.subimg{
+    background-image: url("./avenue-815297_640.jpg");
+    
+    width: 100%;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    text-align: center;
+    
+    
+}
+.subimg h1{
+    color: rgb(55, 9, 224);
+    font-size: 50px;
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+.inputbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: re;
+}
+.inputbox input{
+    padding: 10px;
+    border: none;
+    font-size: 20px;
+    width: 600px;
+    background-color: white;
+}
+.subimg button{
+    padding: 10px 30px;
+    font-size: 20px;
+    background-color: blue;
+    color: white;border: none;
+}
+.cards{
+    display: flex;
+    
+    gap: 20px;
+    background-color: yellowgree;
+
+}
+.cards .lorem{
+    box-shadow: 1px 1px 5px 1px grey;
+    border-radius: 5px;
+}
+.cards .lorem:first-child{
+    background-color: rgb(255, 208, 0);
+}
+.cards .lorem:nth-child(2){
+    background-color: violet;
+}
+.cards .lorem:nth-child(3){
+    background-color: chartreuse;
+}
+.para:nth-child(2){
+    background-color: blueviole;
+    padding-top: ;
+}
+.para:nth-child(2) h2{
+    padding-top: 20px;
+   
+}
+.para:nth-child(2) h1{
+    font-size: 60px;
+   
+}
+.travel img{
+    height: 200px;
+    width: 370px;
+    border-radius: 5px;
+    padding-bottom: 20px;
+}
+.imgdiv:nth-child(3),.imgdiv:nth-child(5){
+    box-shadow: unset;
+}
+.travel h1{
+    margin-bottom: 10px;
+}
+.travel h1:first-child{
+    font-size: 35px;
+}
+.travel button:first-child{
+    background-color: aqua;
+}
+.center{
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 35px;
+}
+.lastimg{
+    text-align: center;
+    
+   
+}
+.lastimg img{
+    width:350px;
+    height: 200px;
+    border-radius: 5px;
+}
+.lastimg h1{
+    padding: 20px 0 10px;
+    font-size: 25px;
+}
+.lastimg p{
+    padding:0 30px;
+}
+.bottombox{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: blanchedalmond;
+}
+.details{
+    padding: 50px;
+    width: 25%;
+}
+.details h2,h1{
+    padding-bottom: 20px;
+}
+.lasticons i{
+    /* height: 50px;
+    width: 50px; */
+    padding: 10px;
+    background-color:darkorange;
+    border-radius: 50%;
+    font-size: 25px;
+    color: white;
+   
+}
+@media screen and (max-width:650px){
+    .topbtns{
+        flex-wrap: wrap;
+    }
+    .imgbox .buybtn,.imgbox .travelbtn{
+         margin: 20px;
+        width: 200px;
+    }
+    .imgbox .travelbtn{
+        color: white;
+    }
+    .imgdiv{
+        grid-template-columns:repeat(auto-fit, minmax(300px,1fr));
+    }
+    img{
+        width: 100%;
+    }
+    .details{
+        width: 100%;
+        padding: 20px;
+    }
+    .subimg{
+        min-height:300px ;
+    }
+    .subimg input{
+        width:100%;
+        
+    }
+}

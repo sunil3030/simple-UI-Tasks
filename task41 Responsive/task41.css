@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width:100%;
+    min-height: 650px;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:20px;
+    
+}
+.virat{
+    display: none;
+}
+.dhoni{
+    display:none
+}
+.imgbox{
+    width:300px;
+}
+
+@media screen and (min-width:320px) and (max-width:500px){
+    
+        
+    
+    .virat{
+         display: block;
+    }
+    .rohit{
+        display: none;
+    }
+}
+@media screen  and (min-width:500px) and (max-width:800px){
+    .dhoni{
+        display:block
+    }
+    .rohit{
+         display: none;
+    }
+
+}

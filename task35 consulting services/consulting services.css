@@ -1,0 +1,68 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+.wholediv{
+    width:100%;min-height: 800px;
+    margin: auto;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNCHchbA5qH8dsfx1aOVYfuDEmY01SPWVN5Q&usqp=CAU");
+    background-size:cover;
+    background-color:rgba(23,120,55,0.3);
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+}
+.title{
+    font-size: 40px;
+    padding-top: 50px;
+    
+
+}
+.titlediv{
+    width:40%;
+    margin: auto;
+}
+.sub{
+    margin-top:10px;
+    
+}
+.sections{
+    width:27%;
+    border:2px solid white;
+    border-radius: 5px;
+    padding:20px;margin:5px;
+    
+    padding-bottom: 50px;float:left;
+    
+}
+i{
+    background-color: orangered;
+    padding:15px;border-radius: 50%;
+    margin-top: 30px;margin-bottom: 20px;
+}
+.sectitle{
+    margin-bottom: 15px;
+}
+.secdiv{
+    margin-left:110px;
+    margin-top:25px;margin-bottom: 20px;
+    width:100%;clear:both
+}
+.last{
+    width:25%;
+    padding-top: 20px;
+    margin: auto;clear:both;
+    
+}
+.underline{
+    border-bottom: 2px solid white;
+}
+.viewbtn{
+    background-color: orangered;
+    border:none;color:white;
+    padding:10px 40px 10px;
+    border-radius: 30px;
+    margin-top: 20px;
+    letter-spacing: 3px;
+}

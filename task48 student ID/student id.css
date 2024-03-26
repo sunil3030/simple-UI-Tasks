@@ -1,0 +1,105 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    min-height: 650px;
+    background-image: linear-gradient(to right, blue, lightgreen);
+    width:100%;
+    display: flex;
+    justify-content: center;
+    padding: 90px;
+    gap:30px;
+    flex-wrap: wrap;
+}
+.IDbox{
+    border-radius: 10px 10px 0px 0px;
+    padding: 20px;
+    background-color: white;
+    width: 300px;
+    text-align: center;
+    border-bottom: 1px solid gray;
+}
+.IDbox img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    border: 10px solid gray;
+    object-fit: cover;
+}
+.idcontent{
+    background-color: white;
+    padding: 20px;
+    border-radius: 0px 0px 10px 10px;
+    width: 300px;
+}
+p{
+    font-size: 18px;
+    line-height: 25px;
+}
+.IDbox h3{
+    letter-spacing: 5px;
+    font-size: 25px;
+}
+.details{
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    width: 700px;
+    margin-bottom: 30px;
+}
+.leftbox{
+    width: 300px;
+}
+.rightbox{
+    width:700px
+    
+}
+table,tr,td,th{
+    border: 1px solid gray;
+    border-collapse:collapse ;
+    padding: 10px;
+    
+}
+td{
+    width: 90%;
+}
+.size{
+    width:35%;
+    text-align: left;
+}
+.others{
+    width:700px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px 20px 20px 20px;
+   
+}
+.rightbox h3{
+    font-size: 23px;
+    margin-bottom: 10px;
+}
+.rightbox p{
+    line-height: 25px;
+}
+@media screen and (max-width:800px){
+    .container{
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+        
+    }
+    .leftbox,.IDbox, .idcontent{
+        width:100%;
+        flex-grow: 1;
+    }
+    .idcontent{
+       text-align: center;
+    }
+    .rightbox,.others,.details{
+        width: 100%;
+    }
+   
+}

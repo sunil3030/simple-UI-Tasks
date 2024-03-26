@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.webpage{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 650px;
+}
+
+.container{
+    height: 500px;
+    width: 500px;
+    background-color:cadetblue;
+    position: relative;
+    margin: auto;
+}
+.boxes{
+    height: 150px;
+    width: 150px;
+    
+}
+.red{
+    background-color: red;
+    position: absolute;
+    right:0
+}
+.blue{
+    background-color: blue;
+    position: absolute;
+    bottom: 0;
+}
+.yellow{
+    background-color: yellow;
+    position: absolute;
+    top: 0;
+    
+    
+}
+.green{
+    background-color: green;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+
+}
+.violet{
+    background-color: blueviolet;
+    position: absolute;
+    right: 35%;
+    top: 35%;
+    
+    
+
+}

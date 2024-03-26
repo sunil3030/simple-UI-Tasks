@@ -1,0 +1,158 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.wholediv{
+      width:100%;height:2000px;
+      background-color: blu;
+      
+}
+.buttonsdiv{
+    padding: 10px;
+    float:left;
+    width:58%;
+    background-color: blueviole;
+}
+.toolbtn{
+    border:none;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: white;
+    margin-top: 0px;
+}
+.rightbuttons{
+   background-color: bisqu;
+   padding:10px ;
+}  
+.rightbuttons .rb{
+    margin-right:40px;
+    background-color: white;
+    border:none;
+    font-size: 15px;
+} 
+.rightbuttons i{
+    margin-right: 10px;
+}
+.getbtn{
+    border:2px solid black;
+    margin-left: 20px;
+    padding: 5px;padding-left: 10px;
+    border-radius: 20px;
+    background-color: aqua;
+    font-weight: bold;
+}
+.fa-solid{
+    font-size:16px;
+    margin-left:5px;
+}
+                                             /* img div */
+.imgdiv{
+    
+    height:460px;width:100%;
+    background-color:brown ;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7rWjNjgbsg9SK2mozJ9dePfgBbdGMeb4SpA&usqp=CAU");
+    background-repeat:no-repeat ;
+    background-size:cover;
+    background-attachment: fixed;
+    background-color: aquamarin;
+}
+                                             /*title div*/
+.titlediv{
+    text-align: center;
+    width:50%;
+    margin:auto;
+    padding-top: 140px;
+    background-color: bisqu;
+}
+.get{
+    border:2px solid black;
+    padding: 5px;padding-right: 10px;
+    padding-left: 10px;
+    background-color:unset;
+    border-radius: 20px;
+    color:white;
+}
+.titlediv button{
+    margin-top:20px;
+    margin-right: 20px;
+}
+.titlediv p{
+    margin-top:10px;
+}
+.titlediv h1{
+    color:white;
+    font-size: 45px;
+}
+                                            /* conten div */
+.contentdiv{
+    width:100%;
+    background-color:re;
+    margin-top: 40px;
+    
+    
+}
+.aboutdiv{
+    width:50%;
+    background-color: brow;
+    padding: 20px;padding-top: 0px;
+    float:left;
+    
+}
+.aboutdiv button{
+    border:2px solid black;
+    border-radius: 20px ;
+    margin-top: 20px;
+    background-color: unset;
+    padding:5px 10px 5px 10px;
+}
+                                       /* sub img */
+.subimg{
+    background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcByd84vRTz5-x7Yom9WuWXLf23OiSJoVPUw&usqp=CAU");
+    height: 280px;width:48%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float:left;
+    background-color: chartreuse;
+    padding: 20px;
+    padding-left:10px;padding-right: 10px;
+    border-radius: 20px;
+}
+.bottomimg{
+    width:48%;
+    background-color:black;
+    border-radius: 10px;
+    
+    float:left;
+    padding: 20px;margin: 20px;
+
+}
+.bottomimg p{
+    color:white;
+    font-size: 30px;
+}
+.botimg{
+    width:100%;height:250px;
+    border-radius: 20px;
+    
+}
+.lastdiv{
+    background-color:greenyellow;
+    float:left;width:48%;
+    padding: 20px;   
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.lastdiv p{
+    font-size:28px;
+}
+.botimgs{
+    width:100%;height:200px;
+    border-radius: 20px;
+    margin-top: 3px;
+}
+.lastdiv button{
+    float:right;
+    margin-top: 20px;
+    color: black;
+}

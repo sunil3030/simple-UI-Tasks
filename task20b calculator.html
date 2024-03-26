@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+
+ <head>
+       <title> Calculator </title>
+                                                   <!-- internal css-->
+      <style>
+             h1{
+                color:red;width:40%;
+                text-align:center;margin:auto;
+                background-color:yellow;margin-bottom:30px;
+                }
+             table,tr,td{
+                         border:2px solid black;
+                         padding:5px;margin:auto;
+                         text-align:center; 
+                        }
+             table{
+                   width:30%
+                  }
+            .row1{
+                  text-align:right
+                 }
+            td{
+               width:20%;font-size:20px;
+               font-weight:bold;border-radius:5px
+              }
+           .lastbox{
+                    width:10%
+                   }
+     </style>
+ </head>
+
+ <body>
+        <h1> Calculator </h1>
+                                       <!--1st table-->
+         <table>
+                                       <!--1st row-->
+                <tr >                  
+                    <td class="row1" colspan="4"> 0 </td>
+                                      
+                </tr>
+                                        <!--2nd row-->
+                <tr>
+                     <td col span="4" style="background-color:yellow"> ( </td>
+                     <td> ) </td>
+                     <td> % </td>
+                     <td class="lastbox"> / </td>
+                </tr>  
+                                       <!--3rd row-->
+                <tr>
+                     <td> 7 </td>
+                     <td> 8 </td>
+                     <td> 9 </td>
+                     <td class="lastbox"> x </td>
+                </tr> 
+                                       <!--4th row-->
+                 <tr>
+                     <td> 4 </td>
+                     <td> 5 </td>
+                     <td> 6 </td>
+                     <td class="lastbox"> - </td>
+                </tr>
+                                      <!-- 5th row-->
+                 <tr>
+                     <td> 1 </td>
+                     <td> 2 </td>
+                     <td> 3 </td>
+                     <td class="lastbox" rowspan="2"> + </td>
+                </tr> 
+                                     
+               
+                                     <!-- 6th row-->
+                 <tr>
+                     <td col span="1" style="background-color:red"> Del </td>
+                     <td> 0 </td>
+                     <td> = </td>
+                     
+                </tr>                                                       
+        </table>
+ </body>
+
+</html>

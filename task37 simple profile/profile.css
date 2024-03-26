@@ -1,0 +1,30 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wholediv{
+    width: 100%;min-height: 400px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:40px;
+}
+.imgdiv{
+
+}
+img{
+    height: 230px;
+    width: 230px;
+    border-radius: 50%;
+}
+.introdiv{
+    background-color:orangered;
+    width: 380px;
+    padding: 20px 15px 25px 35px ;
+    border-radius: 0px 10px 20px 60px;
+}
+h3{
+    margin-bottom: 10px;
+}

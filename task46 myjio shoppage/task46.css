@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    min-height: 650px;
+    background-color: rgba(255, 235, 205,0.2);
+    padding: 20px;
+}
+.titlebox{
+    width:500px;
+    text-align: center;
+    margin: auto;
+   
+}
+h1{
+    font-size: 50px;
+    line-height: 50px;
+    padding-bottom: 10px;
+}
+.imgcontainer{
+    background-color: aqu;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+.imgbox{
+    width:400px;
+    background-color: blueviole;
+    padding: 20px;
+    box-shadow: 1px 1px 10px  grey;
+    border-radius: 10px;
+
+}
+img{
+    height: 200px;
+    width: 200px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.lastimg{
+    padding-top: 20px;
+}
+.centerimg{
+    background-color: brow;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+.imgbox button{
+    background-color: navy;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 5px 10px;
+    font-weight: bold;
+}
+.name{
+    padding-bottom: 7px;
+}
+p{
+    font-size: 18px;
+}
+i{
+    font-size: 15px;
+}
+.viewbtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.viewbtn button{
+    border: 1px solid grey;
+    padding: 10px 15px;
+    border-radius: 20px;
+    color:blue;
+    background-color: unset;
+    font-weight: bold;
+    font-size: 16px;
+    
+}
+@media screen and (min-width:600px) and (max-width:1320px) {
+    .imgbox{
+        flex-direction: column;
+        margin: 20px;
+    }
+}
+@media screen and (min-width:320px) and (max-width:600px) {
+    .imgcontainer{
+        flex-direction: column;
+        margin: 20px;
+        padding: 20px;
+    }
+    .imgbox{
+        margin: 20px;
+    }
+    .titlebox{
+        flex-wrap: wrap;
+        padding: 20px;
+    }
+    h1{
+        font-size: 50px;
+        
+    }
+    p{
+        font-size: 30px;
+        padding-top: 20px;
+    }
+}

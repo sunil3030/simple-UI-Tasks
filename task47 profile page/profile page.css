@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    min-height: 650px;
+    background-image: linear-gradient(red 50%, white 50%);
+    padding: 40px;
+}
+.shadowbox{
+     background-color: white;
+     width:80%;
+     padding: 40px 30px;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     margin: auto;
+     box-shadow: 1px 1px 10px 1px black;
+     flex-grow: 1;
+}
+.leftbox{
+    width:450px;
+    background-color: chartreus;
+    
+}
+h2{
+    font-size: 35px;
+    padding-bottom: 30px;
+}
+label{
+    font-size: 19px;
+}
+input{
+    width:90%;
+    margin-bottom:20px
+}
+.checkbox{
+    width:auto
+}
+textarea{
+    margin-bottom: 10px;
+    width: 90%;
+    height: 100px;
+}
+span{
+    font-weight: bold;
+}
+.red{
+    color:red
+}
+input,textarea{
+    border: none;
+    border-bottom:1px solid black;
+    padding: 10px;
+}
+.leftbox button{
+    background-color: rgb(252, 0, 0);
+    color:white;
+    padding: 15px 50px;
+    border-radius: 30px;
+    width: 90%;
+    font-weight: bold;
+    border: none;
+    font-size: 17px;
+    letter-spacing: 2px;
+}
+.rightbox{
+    width:450px;
+    background-color: blueviole;
+    padding: 10px;
+
+}
+.containbox{
+    display: flex;
+    padding-bottom: 50px;
+}
+.contentbox{
+    width:100%;
+    
+}
+.iconbox{
+    font-size: 50px;
+    color:red;
+    background-color: aqu;
+    
+    width: 110px;
+}
+.contentbox h3{
+    padding-bottom: 30px;
+}
+.contentbox p{
+    font-size: 19px;
+    line-height: 25px;
+}
+@media screen and (max-width:400px) {
+    .container{
+        padding: 10px;
+    }
+    .leftbox{
+        padding-bottom: 20px;
+    }
+    button{
+        margin-top: 20px;
+    }
+    
+}
+@media screen and (max-width:1280px) {
+    .leftbox{
+        padding-bottom: 20px;
+    }
+    
+}

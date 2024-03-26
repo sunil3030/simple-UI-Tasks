@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    
+}
+.navbar{
+    background-color: red;
+    display: flex;
+    padding: 15px;
+    position: relative;
+}
+.logo{
+    width:55%;
+    
+}
+.logo .btns{
+    font-size: 30px;
+    animation-name: logo;
+    position: absolute;
+    animation-duration: 1s;
+    animation-iteration-count:5;
+    animation-fill-mode: forwards;
+}
+.rbtns{
+    animation-name: btns;
+    position: relative;
+    animation-duration: 1s;
+    animation-iteration-count:5;
+    animation-fill-mode: forwards;
+    
+    
+}
+.rbtns .btns{
+    font-size: 25px;
+    
+   
+    
+    
+}
+.navbar .btns{
+    
+    color: white;
+    background-color: unset;
+    border: none;
+    padding:0 30px;
+    font-weight: bold;
+}
+.rbtns .btns:hover{
+          background-color: blue;
+          padding:0 10px;
+          border-radius: 10px;
+          cursor: pointer;
+}
+.contentbox{
+    padding: 50px;
+    position: relative;
+    overflow: hidden;
+
+}
+.content h1{
+      font-size: 40px;
+      padding-bottom: 20px;
+}   
+.content p{
+    line-height: 35px;
+    font-size: 20px;
+    padding-bottom: 30px;
+    animation-name: c2;
+}
+.content:first-child{
+    animation-name: c1;
+    animation-duration: 1s;
+    position: relative;
+    animation-fill-mode: forwards;
+    animation-iteration-count:5;
+}
+.content:last-child{
+    animation-name: c2;
+    animation-duration: 1s;
+    position: relative;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 5;
+    
+}
+@keyframes c1{
+    from{
+        left: 500px;
+        top: 0;
+    }
+    to{
+        left: 50px;
+        top: 0;
+    }
+}
+@keyframes c2{
+    from{
+        left:-500px;
+        top: 20px;
+    }
+    to{
+        left:50px;
+        top: 20px;
+    }
+}
+@keyframes logo{
+    from{
+        top: -20px;
+
+    }
+    to{
+        top:10px
+    }
+}
+@keyframes btns{
+    from{
+        top: 40px;
+
+    }
+    to{
+        top:0
+    }
+}
+@media screen and (min-width:800px) and (max-width:1310px) {
+    .logo{
+        width:40%
+    }
+    
+}
+@media screen and (min-width:850px) and (max-width:1000px) {
+    .logo{
+        width: 30%;
+    }
+    
+}
+@media screen and (min-width:768px) and (max-width:850px) {
+    .logo{
+        width: 20%;
+    }
+    
+}
+@media screen and (max-width:767px) {
+    .rbtns{
+        display:none;
+    }
+    .navbar{
+       padding: 30px;
+    } 
+}
+@keyframes c1{
+      from{
+        left: 500px;
+        top: 0;
+    }
+        to{
+            left: 10px;
+            top: 0;
+        }
+    }
+
+@keyframes c2{
+     from{
+        left:-500px;
+        top: 20px;
+    }
+        to{
+            left: 10px;
+            top: 20px;
+        }
+    }

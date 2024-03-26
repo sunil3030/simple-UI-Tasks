@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color: darkkhaki;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 650px;
+}
+.cardcontainer{
+      width:850px;
+      border-radius: 5px;
+      background-color: white;
+      display: flex;
+      
+      
+     
+}
+.contentcard{
+    padding: 30px;
+    font-size: 20px;
+   
+}
+.red{
+    color:red;
+    padding:20px 0 10px;
+    font-weight: bold;
+}
+
+.size{
+    font-size: 50px;
+}
+.contentcard button{
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    padding: 10px 30px;
+    margin-top: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+li{
+    line-height: 30px;
+}
+.imgcard{
+    width: 400px;
+    position:relative;
+    
+    background-color: gree;
+   
+    
+}
+.contentcard h1{
+    padding-bottom: 10px;
+}
+.splitimg img{
+    width: 40px;
+    height: 40px;
+    margin: 10px 0 20px;
+}
+.pngimg{
+    width: 400px;
+    height: 300px;
+    background-color:red;
+    position: absolute;
+    left: -50px;
+    top: 57px;
+    box-shadow: 1px 1px 10px 1px black;
+    background-color: aqu;
+    
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+}
+
+.pngimg img{
+    width:300px;
+    height:220px;
+    object-fit: cover;
+}
+.leftcardsplits img{
+    width: 20%;
+    height: 70px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px 1px grey;
+}
+.leftcardsplits{
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+}

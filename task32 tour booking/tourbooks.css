@@ -1,0 +1,57 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+    }
+body{
+    background-color:burlywood;
+}
+.wholediv{
+    width:47%;height:252px;
+    background-color:aquamarine;
+    margin:auto;margin-top:20px;
+    border-radius:10px;
+    }
+.imgdiv{
+    float:left;
+}
+.titlediv{
+    float:left;
+    width:69%;
+    padding: 20px;
+    background-color: white;
+    padding-right:0px;
+    border-radius: 0px 10px 0px 0px;
+}
+img{
+    height:252px;width:199px;
+    border-radius: 10px 0px 0px 10px;
+}
+.bookingdiv{
+    float:left;
+    padding:20px;
+    background-color:aquamarine;
+    border-radius: 10px;
+}
+i{
+    color:green;
+}
+button{
+    background-color: darkviolet;
+    color:white;
+    font-size:16px;
+    padding: 10px;
+    border:none;font-weight:bold;
+    border-radius: 10px;
+    margin-left:100px;
+    padding-left: 20px;padding-right: 20px;
+}
+p{
+    font-size:18px
+}
+.line2{
+    margin-top:10px
+}
+.line{
+    margin-top:10px;
+}
